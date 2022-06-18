@@ -1,8 +1,8 @@
 import torch
 import metrics 
 import data
-#import unet_aspp as model #我改好的模型
-import model #原本的模型
+import unet_aspp as model #我改好的模型
+#import model #原本的模型
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
 devicess = [0,1]
